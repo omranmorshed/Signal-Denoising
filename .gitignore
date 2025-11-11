@@ -25,6 +25,7 @@ env/
 results/
 *.png
 *.pdf
+!docs/*.pdf
 
 # System files
 .DS_Store
