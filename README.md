@@ -55,29 +55,5 @@ The study considers four types of noise:
 - **Matched Filter** excels in detecting structured pulses under low-SNR conditions.  
 - **FIR** and **Moving Average** filters offer good simplicity–performance trade-offs.  
 
----
 
-## 📂 Project Structure
-Signal-Denoising/
-│
-├── src/
-│ ├── filters # All filtering algorithms
-│ │ ├── fir_bandpass.py
-│ │ ├── matched.py
-│ │ ├── moving_average.py
-│ │ ├── wavelet.py
-│ │ ├── wiener.py
-│ ├── noise.py # Noise generation functions
-│ ├── pulse.py # generate pulse
-│ ├── metrics.py # Evaluation metrics
-│ ├── freq_analysis.py # FFT, PSD, and spectrogram plotting
-│ ├── aplly_all_filters.py 
-│ ├── plotting.py # time analysis, plotting
-│ ├── main.py # Main demo pipeline
-│
-├── Comparative_Analysis_of_Digital_Filtering_Techniques_for_Multi-Type_Noisy_Signal_Restoration.pdf
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
 
